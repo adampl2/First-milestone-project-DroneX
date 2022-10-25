@@ -15,7 +15,7 @@ body {
 /*--------------------------------------------NavBar */
 
 nav {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -92,7 +92,15 @@ nav .signup-btn:hover {
 
 .bg-image-text1 {
     text-align: center;
-    padding-top: 130px;
+    padding-top: 120px;
+}
+
+.bg-image-text1 p {
+    color: rgb(186, 186, 186);
+    margin-bottom: 2px;
+    text-transform: capitalize;
+    font-family: "Exo", sans-serif;
+    font-weight: 600;
 }
 
 .bg-image-heading {
@@ -100,22 +108,22 @@ nav .signup-btn:hover {
     padding-top: 10px;
 }
 
-.bg-image-heading h3 {
+.bg-image-heading h2 {
     font-family: "Exo", sans-serif;
     text-transform: uppercase;
     font-weight: bold;
     word-spacing: 5px;
-    letter-spacing: 2px;
+    letter-spacing: 2.5px;
     color: #fff;
 }
 
 .bg-image-anchor {
     text-align: center;
-    padding-top: 35px;
+    padding-top: 30px;
 }
 
 .bg-image-anchor-text {
-    padding: 5px 11px;
+    padding: 7px 11px;
     text-decoration: none;
     color: #fff;
     font-family: "Exo", sans-serif;
@@ -123,8 +131,18 @@ nav .signup-btn:hover {
     border: 1.5px solid #fff;
     border-radius: 10px;
     word-spacing: 2px;
+    transition-duration: 0.4s;
 }
 
 .bg-image-anchor-text:hover {
     color: #fff;
+    opacity: 0.6;
+}
+
+/*--------------------------------------------Our Clients Section */
+
+.clients-heading {
+    text-align: center;
+    font-family: "Exo", sans-serif;
+    padding-top: 15px;
 }
