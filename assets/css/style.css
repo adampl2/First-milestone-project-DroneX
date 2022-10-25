@@ -5,6 +5,13 @@ body {
     padding: 0;
 }
 
+/*--------------------------------------------Icons */
+
+.bg-image .bg-image-anchor .icon {
+    font-size: 12px;
+    padding-left: 5px;
+}
+
 /*--------------------------------------------NavBar */
 
 nav {
@@ -46,11 +53,14 @@ nav ul li a {
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1px;
+    transition-duration: 0.4s;
 }
 
 nav ul li a:hover {
+    color: #fff;
+    text-decoration: none !important;
     background: rgba(0, 0, 0, 0.3);
-    border-radius: 6px;;
+    opacity: 0.6;
 }
 
 nav .signup-btn {
@@ -78,4 +88,43 @@ nav .signup-btn:hover {
     background: url("../images/pexels.bgimg.jpg");
     background-size: cover;
     background-position: center;
+}
+
+.bg-image-text1 {
+    text-align: center;
+    padding-top: 130px;
+}
+
+.bg-image-heading {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.bg-image-heading h3 {
+    font-family: "Exo", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+.bg-image-anchor {
+    text-align: center;
+    padding-top: 35px;
+}
+
+.bg-image-anchor-text {
+    padding: 5px 11px;
+    text-decoration: none;
+    color: #fff;
+    font-family: "Exo", sans-serif;
+    font-size: 15px;
+    border: 1.5px solid #fff;
+    border-radius: 10px;
+    word-spacing: 2px;
+}
+
+.bg-image-anchor-text:hover {
+    color: #fff;
 }

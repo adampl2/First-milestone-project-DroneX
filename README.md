@@ -8,3 +8,9 @@
 
 ## Challanges
 
+## How to Use the Project
+
+## Credits
+
+### Background image (pexels.bgimg.jpg) -  Pixabay (https://www.pexels.com/pl-pl/zdjecie/wysokie-budynki-w-nocy-zdjecie-219692/)
+
