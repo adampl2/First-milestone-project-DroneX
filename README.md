@@ -12,5 +12,11 @@
 
 ## Credits
 
-### Background image (pexels.bgimg.jpg) -  Pixabay (https://www.pexels.com/pl-pl/zdjecie/wysokie-budynki-w-nocy-zdjecie-219692/)
+### Background image (pexels-bgimg.jpg) -  Pixabay (https://www.pexels.com/pl-pl/zdjecie/wysokie-budynki-w-nocy-zdjecie-219692/)
+
+### Warsaw Image (pexels-warszawa.jpg) - Skitterphoto (https://www.pexels.com/pl-pl/zdjecie/budynki-miasto-miejski-panorama-10676/)
+
+### Hong Kong Image (pexels-hongkong.jpg) - SodaTheCat (https://www.pexels.com/pl-pl/zdjecie/miasto-budynki-port-drapacze-chmur-11451098/)
+
+### Singapore Image (pexels-singapore.jpg) - 
 
