@@ -142,7 +142,7 @@ nav .signup-btn:hover {
     opacity: 0.6;
 }
 
-/*--------------------------------------------Our Clients Section */
+/*--------------------------------------------Our Locations Section */
 
 .location-heading-main {
     text-align: center;
@@ -154,35 +154,78 @@ nav .signup-btn:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
 
 .location-headings {
     width: 100%;
     text-align: center;
     font-family: "Exo", sans-serif;
+    margin: 12px 0 16px 0;
 }
 
 .location-parapgraph {
     width: 100%;
     text-align: center;
     font-family: "Exo", sans-serif;
+    margin-bottom: 54px;
 }
 
 /*--------------------------------------------Footer */
 
 footer {
-    width: 100%;
+    background-color: #000000;
+    color: #ffffff;
+    min-height: 120px;
+    margin: 0;
+}
+
+.general-sub {
+    margin: 16px 0 12px 12px;
+    font-family: "Exo", sans-serif;
+    font-weight: 600;
+    border-bottom: 1.2px solid #fff;
+}
+
+footer .footer-cities {
+    margin-left: 12px;
+    font-family: "Exo", sans-serif;
+    font-size: 14px;
+}
+
+footer .footer-contact-details {
+    margin-left: 12px;
+    font-family: "Exo", sans-serif;
+    font-size: 14px;
 }
 
 footer .social-links {
-    margin: 0;
+    margin: 16px 12px 12px 0;
     float: right;
+}
+
+footer .social-links i {
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+ footer #footer-language {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 16px;
 }
 
 /*--------------------------------------------Media Queries */
 
 @media (max-width: 767px) {
     .logo {
+        display: none;
+    }
+
+    .signup-btn {
         display: none;
     }
     nav {
