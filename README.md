@@ -18,5 +18,7 @@
 
 ### Hong Kong Image (pexels-hongkong.jpg) - SodaTheCat (https://www.pexels.com/pl-pl/zdjecie/miasto-budynki-port-drapacze-chmur-11451098/)
 
-### Singapore Image (pexels-singapore.jpg) - 
+### Singapore Image (pexels-singapore.jpg) - Timo Volz (https://www.pexels.com/pl-pl/zdjecie/gardens-by-the-bay-singapur-1842332/)
+
+### Contact.html background image (pexels-contactbgimg.jpg) - Michael Meyer (https://www.pexels.com/pl-pl/zdjecie/latanie-martwa-natura-dji-kamera-drone-9739244/)
 

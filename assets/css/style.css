@@ -66,9 +66,10 @@ nav ul li a:hover {
 
 nav .signup-btn {
     height: 32px;
-    padding: 12px 16px;
+    padding: 0;
+    background-color: inherit;
     margin-top: 18px;
-    background-color: #060505;
+    background-color: none;
     color: #fff;
     float: right;
     text-transform: uppercase;
@@ -81,6 +82,7 @@ nav .signup-btn {
 nav .signup-btn:hover {
     color: #fff;
     opacity: 0.6;
+    background-color: inherit;
 }
 
 /*--------------------------------------------Hero Image */
@@ -93,18 +95,32 @@ nav .signup-btn:hover {
     background-position: center;
 }
 
-.bg-image-text {
+/*--------------------------------------------CONTACT.html Hero Image */
+
+.contact-bg-image {
+    width: 100%;
+    height: 110vh;
+    background: url("../images/pexels-contactbgimg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/*--- bg image upper paragraph */
+
+.bg-image-text-upper {
     text-align: center;
     padding-top: 120px;
 }
 
-.bg-image-text p {
-    color: rgb(186, 186, 186);
+.bg-image-text-upper p {
+    color: #bababa;
     margin-bottom: 2px;
     text-transform: capitalize;
     font-family: "Exo", sans-serif;
     font-weight: 600;
 }
+
+/*--- bg image heading */
 
 .bg-image-heading {
     text-align: center;
@@ -116,9 +132,11 @@ nav .signup-btn:hover {
     text-transform: uppercase;
     font-weight: bold;
     word-spacing: 5px;
-    letter-spacing: 2.5px;
+    letter-spacing: 3px;
     color: #fff;
 }
+
+/*--- bg image "Request Delivery" */
 
 .bg-image-anchor {
     text-align: center;
@@ -142,11 +160,56 @@ nav .signup-btn:hover {
     opacity: 0.6;
 }
 
+/*--------------------------------------------CONTACT.HTML Hero Image text */
+
+.contact-bg-image-heading {
+    text-align: center;
+    padding-top: 120px;
+}
+
+.contact-bg-image-heading h2 {
+    font-family: "Exo", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    color: #fff;
+}
+
+.contact-bg-image-parapgraph-upper {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.contact-bg-image-parapgraph-upper p {
+    color: #fff;
+    margin-bottom: 2px;
+    text-transform: capitalize;
+    font-family: "Exo", sans-serif;
+    font-weight: 600;
+}
+
+.contact-bg-image-parapgraph-lower {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.contact-bg-image-parapgraph-lower p {
+    color: #fff;
+    margin-bottom: 2px;
+    text-transform: capitalize;
+    font-family: "Exo", sans-serif;
+    font-weight: 600;
+}
+
 /*--------------------------------------------Our Locations Section */
 
 .location-heading-main {
     text-align: center;
     font-family: "Exo", sans-serif;
+    word-spacing: 0.3em;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
     padding: 20px 0 50px 0;
 }
 
@@ -155,12 +218,63 @@ nav .signup-btn:hover {
     align-items: center;
     justify-content: center;
     width: 100%;
+    overflow: hidden;
 }
+
+/*--- Transition */
+
+#warsaw {
+    transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    max-width: 100%;
+}
+
+#warsaw:hover {
+    transform: scale(1.1);
+    width: 100%;
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
+}
+
+#hongkong {
+    transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    max-width: 100%;
+}
+
+#hongkong:hover {
+    transform: scale(1.1);
+    width: 100%;
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
+}
+
+#singapore {
+    transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    max-width: 100%;
+}
+
+#singapore:hover {
+    transform: scale(1.1);
+    width: 100%;
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
+}
+
+/*--- Headings */
 
 .location-headings {
     width: 100%;
     text-align: center;
     font-family: "Exo", sans-serif;
+    letter-spacing: 1.5px;
     margin: 12px 0 16px 0;
 }
 
@@ -168,6 +282,9 @@ nav .signup-btn:hover {
     width: 100%;
     text-align: center;
     font-family: "Exo", sans-serif;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.7px;
     margin-bottom: 54px;
 }
 
@@ -178,6 +295,7 @@ footer {
     color: #ffffff;
     min-height: 120px;
     margin: 0;
+    padding-bottom: 18px;
 }
 
 .general-sub {
@@ -198,6 +316,8 @@ footer .footer-contact-details {
     font-family: "Exo", sans-serif;
     font-size: 14px;
 }
+
+/*--- Social Links */
 
 footer .social-links {
     margin: 16px 12px 12px 0;
