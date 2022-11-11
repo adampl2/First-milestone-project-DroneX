@@ -12,7 +12,7 @@
 
 ## Credits
 
-### Background image (pexels-bgimg.jpg) -  Pixabay (https://www.pexels.com/pl-pl/zdjecie/wysokie-budynki-w-nocy-zdjecie-219692/)
+### Homepage Background image (pexels-homepage-bgimg.jpg) -  Omar Ramadan (https://www.pexels.com/pl-pl/zdjecie/latanie-urzadzenie-glebia-pola-gadzet-9977848/)
 
 ### Warsaw Image (pexels-warszawa.jpg) - Skitterphoto (https://www.pexels.com/pl-pl/zdjecie/budynki-miasto-miejski-panorama-10676/)
 
@@ -21,4 +21,6 @@
 ### Singapore Image (pexels-singapore.jpg) - Timo Volz (https://www.pexels.com/pl-pl/zdjecie/gardens-by-the-bay-singapur-1842332/)
 
 ### Contact.html background image (pexels-contactbgimg.jpg) - Michael Meyer (https://www.pexels.com/pl-pl/zdjecie/latanie-martwa-natura-dji-kamera-drone-9739244/)
+
+### About.html background image (pexels-about-bgimg.jpg) - Simon (https://www.pexels.com/pl-pl/zdjecie/latanie-ruch-martwa-natura-dron-9443061/)
 
