@@ -64,27 +64,6 @@ nav ul li a:hover {
     opacity: 0.6;
 }
 
-nav .signup-btn {
-    height: 32px;
-    padding: 0;
-    background-color: inherit;
-    margin-top: 18px;
-    background-color: none;
-    color: #fff;
-    float: right;
-    text-transform: uppercase;
-    font-family: "Exo", sans-serif;
-    font-weight: 600;
-    transition-duration: 0.4s;
-    border-style: none;
-}
-
-nav .signup-btn:hover {
-    color: #fff;
-    opacity: 0.6;
-    background-color: inherit;
-}
-
 /*--------------------------------------------INDEX.html Hero Image */
 
 .bg-image {
@@ -103,7 +82,7 @@ nav .signup-btn:hover {
 }
 
 .bg-image-text-upper p {
-    color: #bababa;
+    color: #020202a1;
     margin-bottom: 12px;
     text-transform: capitalize;
     font-family: "Exo", sans-serif;
@@ -126,11 +105,11 @@ nav .signup-btn:hover {
     color: #fff;
 }
 
-/*--- bg image "Request Delivery" */
+/*--- bg image "Request Delivery" button */
 
 .bg-image-anchor {
     text-align: center;
-    padding-top: 20px;
+    padding-top: 250px;
 }
 
 .bg-image-anchor-text {
@@ -148,6 +127,87 @@ nav .signup-btn:hover {
 .bg-image-anchor-text:hover {
     color: #fff;
     opacity: 0.6;
+}
+
+/*--------------------------------------------Our Locations Section */
+
+.location-heading-main {
+    text-align: center;
+    font-family: "Exo", sans-serif;
+    word-spacing: 0.3em;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    padding: 20px 0 50px 0;
+}
+
+.location-images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/*--- Transition */
+
+#warsaw {
+    transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    max-width: 100%;
+}
+
+#warsaw:hover {
+    transform: scale(1.1);
+    width: 100%;
+}
+
+#hongkong {
+    transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    max-width: 100%;
+}
+
+#hongkong:hover {
+    transform: scale(1.1);
+    width: 100%;
+}
+
+#singapore {
+    transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    max-width: 100%;
+}
+
+#singapore:hover {
+    transform: scale(1.1);
+    width: 100%;
+}
+
+/*--- Headings */
+
+.location-headings {
+    width: 100%;
+    text-align: center;
+    font-family: "Exo", sans-serif;
+    letter-spacing: 1.5px;
+    margin: 12px 0 26px 0;
+}
+
+.location-parapgraph {
+    width: 100%;
+    text-align: center;
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.7px;
+    margin-bottom: 54px;
 }
 
 /*--------------------------------------------ABOUT.html Hero Image */
@@ -252,7 +312,16 @@ nav .signup-btn:hover {
 /*--------------------------------------------CONTACT.html Form Element */
 
 .form-section {
-    padding: 32px 0 32px 0;
+    padding: 32px 0 52px 0;
+}
+
+.form-heading {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    padding: 40px 0;
+    font-family: "Exo", sans-serif;
+    text-transform: capitalize;
 }
 
 .form {
@@ -279,95 +348,6 @@ nav .signup-btn:hover {
 
 #btn {
     text-align: center;
-}
-
-
-
-/*--------------------------------------------Our Locations Section */
-
-.location-heading-main {
-    text-align: center;
-    font-family: "Exo", sans-serif;
-    word-spacing: 0.3em;
-    letter-spacing: 2.5px;
-    text-transform: uppercase;
-    padding: 20px 0 50px 0;
-}
-
-.location-images {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    margin: auto;
-    overflow: hidden;
-}
-
-/*--- Transition */
-
-#warsaw {
-    transition: all 0.4s ease-in-out;
-    -moz-transition: all 0.4s ease-in-out;
-    -webkit-transition: all 0.4s ease-in-out;
-    -o-transition: all 0.4s ease-in-out;
-    max-width: 100%;
-}
-
-#warsaw:hover {
-    transform: scale(1.1);
-    width: 100%;
-    filter: blur(1px);
-    -webkit-filter: blur(1px);
-}
-
-#hongkong {
-    transition: all 0.4s ease-in-out;
-    -moz-transition: all 0.4s ease-in-out;
-    -webkit-transition: all 0.4s ease-in-out;
-    -o-transition: all 0.4s ease-in-out;
-    max-width: 100%;
-}
-
-#hongkong:hover {
-    transform: scale(1.1);
-    width: 100%;
-    filter: blur(1px);
-    -webkit-filter: blur(1px);
-}
-
-#singapore {
-    transition: all 0.4s ease-in-out;
-    -moz-transition: all 0.4s ease-in-out;
-    -webkit-transition: all 0.4s ease-in-out;
-    -o-transition: all 0.4s ease-in-out;
-    max-width: 100%;
-}
-
-#singapore:hover {
-    transform: scale(1.1);
-    width: 100%;
-    filter: blur(1px);
-    -webkit-filter: blur(1px);
-}
-
-/*--- Headings */
-
-.location-headings {
-    width: 100%;
-    text-align: center;
-    font-family: "Exo", sans-serif;
-    letter-spacing: 1.5px;
-    margin: 12px 0 16px 0;
-}
-
-.location-parapgraph {
-    width: 100%;
-    text-align: center;
-    font-family: "Exo", sans-serif;
-    font-weight: 500;
-    line-height: 30px;
-    letter-spacing: 0.7px;
-    margin-bottom: 54px;
 }
 
 /*--------------------------------------------Footer */
