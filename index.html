@@ -13,13 +13,16 @@
 </head>
 
 <body>
-    <nav class="container-fluid">
+    <nav>
+        
         <div class="logo">DroneX</div>
+        <div class="row">
         <ul class="navbar-elements">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <div class="col-xs-4 col-lg-1"><li><a href="index.html">Home</a></li></div>
+            <div class="col-xs-4 col-lg-1"><li><a href="about.html">About</a></li></div>
+            <div class="col-xs-4 col-lg-1"><li><a href="contact.html">Contact</a></li></div>
         </ul>
+    </div>
     </nav>
     <section>
         <div class="bg-image">
@@ -61,21 +64,8 @@
 
             </div>
             <div class="row">
-                <div class="col-4">
+                <div class="col-lg-4">
                     <h3 class="location-headings">Warsaw</h3>
-
-                </div>
-                <div class="col-4">
-                    <h3 class="location-headings">Hong Kong</h3>
-
-                </div>
-                <div class="col-4">
-                    <h3 class="location-headings">Singapore</h3>
-
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-4">
                     <p class="location-parapgraph">
                         Warsaw is where it all started. Our main HQs were founded here in 2021 right
                         in the historical <a href="https://en.wikipedia.org/wiki/Palace_of_Culture_and_Science" 
@@ -84,14 +74,16 @@
                         across the globe.
                     </p>
                 </div>
-                <div class="col-4">
+                <div class="col-lg-4">
+                    <h3 class="location-headings">Hong Kong</h3>
                     <p class="location-parapgraph">
                         Our main Asian HQs were established in Hong Kong in the late 2021. The extremely
                         fast-growing drone delivery market allowed us successfully operate in this competitive
                         area. 
                     </p>
                 </div>
-                <div class="col-4">
+                <div class="col-lg-4">
+                    <h3 class="location-headings">Singapore</h3>
                     <p class="location-parapgraph">
                         Collaboration with Microsoft began here, delivering their chips, processors, 
                         and other technology around Singaporean skysrcapers was a challange, however with our
@@ -103,9 +95,9 @@
     </section>
     <footer class="container-fluid">
         <div id="footer-details" class="row">
-            <div class="col-sm-4">
+            <div class="col-sm-4" id="footer-loc">
                 <h5 class="general-sub">Locations</h5>
-                <i class="flag flag-poland"></i><p class="footer-cities">Warsaw</p>
+                <p class="footer-cities">Warsaw</p>
                 <p class="footer-cities">Hong Kong</p>
                 <p class="footer-cities">Singapore</p>
             </div>

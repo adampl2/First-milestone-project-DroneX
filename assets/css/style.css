@@ -224,7 +224,14 @@ nav ul li a:hover {
 
 .about-bg-image h2 {
     margin: 0;
-    padding-top: 5%;
+    padding-top: 13%;
+    text-align: center;
+    font-family: "Exo", sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    color: #fff;
 }
 
 /*--- ABOUT.html content heading */
@@ -402,22 +409,74 @@ footer .social-links i {
 
 /*--------------------------------------------Media Queries */
 
-@media (max-width: 767px) {
+@media only screen and (max-width: 480px) {
+    body {
+        width: 100%;
+    }
     .logo {
         display: none;
     }
-
-    .signup-btn {
-        display: none;
-    }
     nav {
-        margin: 0;
-        padding: 4px;
+    width: 100%;
+    margin: auto;
+    padding: 0 14px 0 14pxs;
     }
     nav ul li a {
-        min-height: 100vh;
         height: auto;
-        padding: 4px;
-        margin: 6px;
+        width: 100%;
+        margin: 50%;
+        float: none;
+        text-align: center;
+    }
+    /*-------------index.html */
+    .bg-image {
+        height: 70vh;
+    }
+    .bg-image-anchor {
+        padding-top: 180px;
+    }
+    #warsaw {
+        display: none;
+    }
+    #hongkong {
+        display: none;
+    }
+    #singapore {
+        display: none;
+    }
+    #footer-loc {
+        display: none;
+    }
+    /*-------------about.html */
+    .about-bg-image {
+        height: 70vh;
+    }
+    .about-bg-image h2 {
+        text-align: center;
+        padding-top: 55%;
+        width: 100%;
+        word-spacing: 4px;
+        font-size: 21px;
+    }
+    .about-heading-box h2 {
+        width: 75%;
+        margin: auto;
+        font-size: 21px;
+        padding-top: 42px;
+        word-spacing: 2px;
+        letter-spacing: 1px;
+    }
+    .all-paragraphs {
+        padding: 32px 0 22px 54px;
+    }
+    .all-paragraphs .paragraph {
+        width: 75%;
+    }
+    /*-------------contact.html */
+    .contact-bg-image {
+        height: 70vh;
+    }
+    .contact-bg-image-parapgraph-lower {
+        padding-top: 60%;
     }
 }
