@@ -107,9 +107,9 @@ nav ul li a:hover {
 
 /*--- bg image "Request Delivery" button */
 
-.bg-image-anchor {
-    text-align: center;
+.bg-image .bg-image-anchor {
     padding-top: 250px;
+    text-align: center;
 }
 
 .bg-image-anchor-text {
@@ -224,7 +224,7 @@ nav ul li a:hover {
 
 .about-bg-image h2 {
     margin: 0;
-    padding-top: 13%;
+    padding-top: 15%;
     text-align: center;
     font-family: "Exo", sans-serif;
     text-transform: uppercase;
@@ -419,7 +419,7 @@ footer .social-links i {
     nav {
     width: 100%;
     margin: auto;
-    padding: 0 14px 0 14pxs;
+    padding: 0 14px 0 14px;
     }
     nav ul li a {
         height: auto;
@@ -433,7 +433,7 @@ footer .social-links i {
         height: 70vh;
     }
     .bg-image-anchor {
-        padding-top: 180px;
+        padding-top: 65%;
     }
     #warsaw {
         display: none;
@@ -478,5 +478,59 @@ footer .social-links i {
     }
     .contact-bg-image-parapgraph-lower {
         padding-top: 60%;
+    }
+    .form-heading {
+        width: 90%;
+    }
+    .form {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 990px) and (min-width: 480px) {
+
+    /*-------------index.html */
+
+    .bg-image {
+        height: 90vh;
+    }
+    #warsaw {
+        display: none;
+    }
+    #hongkong {
+        display: none;
+    }
+    #singapore {
+        display: none;
+    }
+    .bg-image .bg-image-anchor {
+        padding-top: 55%;
+    }
+
+    /*-------------about.html */
+
+    .about-bg-image {
+        height: 90vh;
+    }
+    .about-bg-image h2 {
+        padding-top: 45%;
+    }
+
+    /*-------------contact.html */
+
+    .contact-bg-image {
+        height: 90vh;
+    }
+    .form-heading {
+        width: 60%;
+    }
+    .form {
+        width: 60%;
+    }
+    #footer-loc {
+        display: none;
+    }
+    footer .col-sm-4 {
+        width: 100%;
     }
 }
