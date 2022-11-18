@@ -37,7 +37,7 @@ nav .logo {
 }
 
 .navbar-elements {
-    width: 30%;
+    width: 100%;
     list-style: none;
     float: left;
     margin: 0;
@@ -108,7 +108,10 @@ nav ul li a:hover {
 /*--- bg image "Request Delivery" button */
 
 .bg-image .bg-image-anchor {
-    padding-top: 250px;
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    bottom: 20%;
     text-align: center;
 }
 
@@ -424,16 +427,17 @@ footer .social-links i {
     nav ul li a {
         height: auto;
         width: 100%;
-        margin: 50%;
-        float: none;
+        margin: auto;
         text-align: center;
+    }
+    .navbar-elements {
+        justify-content: center;
+        width: 100%;
+        margin: auto;
     }
     /*-------------index.html */
     .bg-image {
         height: 70vh;
-    }
-    .bg-image-anchor {
-        padding-top: 65%;
     }
     #warsaw {
         display: none;
@@ -502,9 +506,6 @@ footer .social-links i {
     }
     #singapore {
         display: none;
-    }
-    .bg-image .bg-image-anchor {
-        padding-top: 55%;
     }
 
     /*-------------about.html */
