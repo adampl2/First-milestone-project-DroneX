@@ -403,13 +403,6 @@ footer .social-links i {
     -o-transition: all 0.35s ease-in-out;
 }
 
- footer #footer-language {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    margin-bottom: 16px;
-}
-
 /*--------------------------------------------Media Queries */
 
 @media only screen and (max-width: 480px) {
@@ -439,6 +432,15 @@ footer .social-links i {
     .bg-image {
         height: 70vh;
     }
+    .bg-image-heading h2 {
+        font-size: 20px;
+        font-weight: 600;
+        word-spacing: normal;
+    }
+    .bg-image .bg-image-anchor {
+        position: absolute;
+        bottom: 45%;
+    }
     #warsaw {
         display: none;
     }
@@ -448,16 +450,14 @@ footer .social-links i {
     #singapore {
         display: none;
     }
-    #footer-loc {
-        display: none;
-    }
     /*-------------about.html */
     .about-bg-image {
         height: 70vh;
     }
     .about-bg-image h2 {
         text-align: center;
-        padding-top: 55%;
+        position: absolute;
+        top: 16%;
         width: 100%;
         word-spacing: 4px;
         font-size: 21px;
@@ -481,13 +481,21 @@ footer .social-links i {
         height: 70vh;
     }
     .contact-bg-image-parapgraph-lower {
-        padding-top: 60%;
+        position: absolute;
+        bottom: 40%;
     }
     .form-heading {
         width: 90%;
     }
     .form {
         width: 90%;
+    }
+     /*-------------footer */
+    footer {
+        height: fit-content;
+     }
+    #footer-loc {
+        display: none;
     }
 }
 
