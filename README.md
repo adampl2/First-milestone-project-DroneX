@@ -6,13 +6,17 @@
 
 #### HTML and CSS were used for this project as well as Bootsrap framework to provide the website with responsive and mobile-first design.
 
-## User Stories
+## User Experience (UX)
 
-## Future Features
+### User Stories
 
-## Typography and Color Scheme
+### Future Features
 
-## wireframes
+### Typography and Color Scheme
+
+### imagery
+
+### wireframes
 
 ## Technology
 

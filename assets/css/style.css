@@ -152,47 +152,6 @@ nav ul li a:hover {
     overflow: hidden;
 }
 
-/*--- Transition */
-
-#warsaw {
-    transition: all 0.4s ease-in-out;
-    -moz-transition: all 0.4s ease-in-out;
-    -webkit-transition: all 0.4s ease-in-out;
-    -o-transition: all 0.4s ease-in-out;
-    max-width: 100%;
-}
-
-#warsaw:hover {
-    transform: scale(1.1);
-    width: 100%;
-}
-
-#hongkong {
-    transition: all 0.4s ease-in-out;
-    -moz-transition: all 0.4s ease-in-out;
-    -webkit-transition: all 0.4s ease-in-out;
-    -o-transition: all 0.4s ease-in-out;
-    max-width: 100%;
-}
-
-#hongkong:hover {
-    transform: scale(1.1);
-    width: 100%;
-}
-
-#singapore {
-    transition: all 0.4s ease-in-out;
-    -moz-transition: all 0.4s ease-in-out;
-    -webkit-transition: all 0.4s ease-in-out;
-    -o-transition: all 0.4s ease-in-out;
-    max-width: 100%;
-}
-
-#singapore:hover {
-    transform: scale(1.1);
-    width: 100%;
-}
-
 /*--- Headings */
 
 .location-headings {
@@ -406,9 +365,9 @@ footer .social-links i {
 /*--------------------------------------------Media Queries */
 
 @media only screen and (max-width: 480px) {
-    body {
-        width: 100%;
-    }
+
+    /*-------------NavBar */
+
     .logo {
         display: none;
     }
@@ -428,7 +387,9 @@ footer .social-links i {
         width: 100%;
         margin: auto;
     }
+
     /*-------------index.html */
+
     .bg-image {
         height: 70vh;
     }
@@ -441,6 +402,9 @@ footer .social-links i {
         position: absolute;
         bottom: 45%;
     }
+
+    /*-------------Our Location Images */
+
     #warsaw {
         display: none;
     }
@@ -450,7 +414,9 @@ footer .social-links i {
     #singapore {
         display: none;
     }
+
     /*-------------about.html */
+
     .about-bg-image {
         height: 70vh;
     }
@@ -476,7 +442,9 @@ footer .social-links i {
     .all-paragraphs .paragraph {
         width: 75%;
     }
+
     /*-------------contact.html */
+
     .contact-bg-image {
         height: 70vh;
     }
@@ -490,7 +458,9 @@ footer .social-links i {
     .form {
         width: 90%;
     }
-     /*-------------footer */
+
+     /*-------------Footer */
+
     footer {
         height: fit-content;
      }
