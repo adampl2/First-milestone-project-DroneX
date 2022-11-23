@@ -185,8 +185,10 @@ nav ul li a:hover {
 /*--------------------------------------------ABOUT.HTML Hero Image heading */
 
 .about-bg-image h2 {
-    margin: 0;
-    padding-top: 15%;
+    position: absolute;
+    top: 34%;
+    width: 100%;
+    margin: auto;
     text-align: center;
     font-family: "Exo", sans-serif;
     text-transform: uppercase;
