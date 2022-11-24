@@ -208,19 +208,21 @@ nav ul li a:hover {
     word-spacing: 0.3em;
     letter-spacing: 2.5px;
     text-transform: uppercase;
-    padding: 20px 0 20px 0;
+    padding: 30px 0 5% 0;
 }
 
 /*--- ABOUT.html content parapgraphs */
 
 .all-paragraphs {
-    padding: 32px 0 22px 146px;
+    width: 100%;
+    margin: auto;
 }
 
 .all-paragraphs .paragraph {
     width: 50%;
+    margin: auto;
     line-height: 22px;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
     font-size: 14px;
     font-family: "Exo", sans-serif;
     color: #707473e2;
@@ -319,6 +321,47 @@ nav ul li a:hover {
 
 #btn {
     text-align: center;
+}
+
+/*--------------------------------------------Confirmation Page */
+
+.confirmation-nav {
+    background: #000000;
+}
+
+.thankyou-msg i {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    position: absolute;
+    top: 25%;
+    font-size: 35px;
+}
+
+.thankyou-msg h1 {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    position: absolute;
+    top: 35%;
+    font-family: "Exo", sans-serif;
+    font-size: 45px;
+}
+
+.thankyou-msg p {
+    width: 100%;
+    margin: auto;
+    padding: 16px;
+    text-align: center;
+    position: absolute;
+    top: 45%;
+    font-family: "Exo", sans-serif;
+}
+
+.confirmation-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
 /*--------------------------------------------Footer */
@@ -425,7 +468,7 @@ footer .social-links i {
     .about-bg-image h2 {
         text-align: center;
         position: absolute;
-        top: 16%;
+        top: 25%;
         width: 100%;
         word-spacing: 4px;
         font-size: 21px;
@@ -437,9 +480,6 @@ footer .social-links i {
         padding-top: 42px;
         word-spacing: 2px;
         letter-spacing: 1px;
-    }
-    .all-paragraphs {
-        padding: 32px 0 22px 54px;
     }
     .all-paragraphs .paragraph {
         width: 75%;
