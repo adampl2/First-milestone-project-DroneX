@@ -76,7 +76,7 @@ from the website.
 
 [Sign Up Page Wireframe](assets/images/wireframe-signup.jpg)
 
-## Features
+### Features
 
 ## Technology
 
