@@ -51,8 +51,6 @@
 * #707473e2
 * #000000
 
-### Future Features
-
 ### Typography 
 
 Google Fonts was used for the following fonts:
@@ -77,6 +75,66 @@ from the website.
 [Sign Up Page Wireframe](assets/images/wireframe-signup.jpg)
 
 ### Features
+
+The website consists of four pages. Home page, about page, and contact page (accessible from the navbar). The only page that is not accessible from the navbar is the confirmation page which appears after a user clicked the "submit" button on the contact page form element.
+
+* All pages on the website have:
+
+  * A responsive navigation bar situated at the top of the webpage. The navbar consists of a logo (DroneX, not visible via mobile view to avoid clutter, thus improving the UX) and three anchor links (home, about, and contact). Additionally, on the mobile view, the anchor links are centered as opposed to floating left. This has been done to fill the blank space on the top of the page, improve page symmetry, and make the navbar look more organised.
+
+  * A footer that contains social media icon links to instagram, facebook, and twitter. The footer also contains the locations column, contact column (address, phone number, and email).
+
+* Home Page
+
+  * Background image section
+
+   From the top, the homepage has a background image section that covers the navbar and is visible across the whole page (height 100vh desktop and 70vh on a mobile). The background image also has a paragraph, a heading, and an anchor link leading to the contact page.
+
+  * Our locations section
+
+  This section presents our current offices in a 3-column layout showcasing images (hidden on mobile and tablet), headings, and a short paragraph. 
+
+* About Page
+
+  * Background image section 
+
+    With the same view height paremeters as the home page. The background image also covers the navbar and has one heading. 
+
+  * Content section
+    
+    The content section has a heading on the top of the section and three short grey (#707473e2) paragraphs explaining the business below.
+
+* Contact Page
+
+  * Background image section
+
+    The background image also covers the navbar, has one heading and two paragraph texts.
+  
+  * Form section
+
+    The contact form requires the user to submit their email, first name, last name, company name, industry, country, agree to the terms of service and click the submit button that leads to the confirmation page. The form is styled using the bootstrap v5.2 framework and a border surrounding it. Above the contact form there is a heading directing user to fill the form.
+
+* Confirmation Page
+
+  * Thank you message section
+    
+    This section only contains a check icon, a "thank you" heading and a small paragraph to reassure the user that the form has been processed successfully and that we will contact the user back shortly. 
+
+* Future Implementations
+  * A JavaScript functions that lets the user return to the back of the page with one click.
+  * A section with success stories of our business parters with images, heading and a text.
+  * Create a section that would showcase the vision for the future of the company.
+
+### Accessibility 
+
+It was ensured that the website is accessible and as user-friendly as possible. I have achieved this by: 
+
+* Using semantic HTML.
+* Using descriptive alt attributes on images on the site.
+* Ensured that there is a sufficient colour contrast throughout the site. 
+* Ensured that all my links have descriptive names. 
+
+- - -
 
 ## Technology
 
