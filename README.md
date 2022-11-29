@@ -138,7 +138,35 @@ It was ensured that the website is accessible and as user-friendly as possible. 
 
 ## Technology
 
-#### HTML and CSS were used for this project as well as Bootsrap framework to provide the website with responsive and mobile-first design.
+### Languages Used
+
+ HTML and CSS were used for this project.
+
+### Frameworks, Libraries & Programs Used
+
+Balsamiq - Wireframes.
+
+Git - Version control.
+
+Github - To save and store the files for the website.
+
+Bootstrap v5.2 - framework used for the website. Used when creating rows and columns. Also the form element was almost entirely created using this framework, with the support of standard CSS3 code to override certain styles.
+
+Google Fonts - To import the fonts used on the website.
+
+Font Awesome - For the iconography on the website.
+
+Google Dev Tools - Troubleshooting, testing features and solving issues with responsiveness and styling.
+
+[Am I Responsive?](http://ami.responsivedesign.is/) To show the website image on a range of devices.
+[Favicon.io](https://favicon.io/) To create favicon.
+
+- - -
+
+## Deployment & Local Development
+
+### Deployment
+
 
 ## Testing
 
@@ -149,12 +177,6 @@ It was ensured that the website is accessible and as user-friendly as possible. 
 ### Fixed Bugs
 
 ### Supported Screens and Browsers
-
-## Deployment
-
-### github
-
-### github pages
 
 ## Credits
 
