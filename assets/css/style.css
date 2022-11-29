@@ -450,13 +450,7 @@ footer .social-links i {
 
     /*-------------Our Location Images */
 
-    #warsaw {
-        display: none;
-    }
-    #hongkong {
-        display: none;
-    }
-    #singapore {
+    .ourloc-img {
         display: none;
     }
 
@@ -518,13 +512,8 @@ footer .social-links i {
     .bg-image {
         height: 90vh;
     }
-    #warsaw {
-        display: none;
-    }
-    #hongkong {
-        display: none;
-    }
-    #singapore {
+
+    .ourloc-img {
         display: none;
     }
 
