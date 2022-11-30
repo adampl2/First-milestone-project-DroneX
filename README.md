@@ -167,8 +167,44 @@ Google Dev Tools - Troubleshooting, testing features and solving issues with res
 
 ### Deployment
 
+Github Pages was used to deploy the live website. Instructions:
+
+1. Log in (or sign up) to Github.
+2. Find the repository for this project, "First-milestone-project-DroneX".
+3. Click on the Settings link.
+4. Click on the Pages link in the left hand side navigation bar.
+5. In the Source section, choose main from the drop down select branch menu. Select Root from the drop down select folder menu.
+6. Click Save. Your live Github Pages site is now deployed at the URL shown.
+
+### Local Development
+
+#### How to Fork
+
+Fork the DroneX repository:
+
+1. Log in (or sign up) to Github.
+2. Go to the repository for this project, adampl12/First-milestone-project-DroneX.
+3. Click the Fork button in the top right corner.
+
+#### How to Clone
+
+Clone the First-milestone-project-DroneX repository:
+
+1. Log in (or sign up) to GitHub.
+2. Go to the repository for this project, adampl12/First-milestone-project-DroneX.
+3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
+
+- - -
 
 ## Testing
+
+Testing progressed at every stage of this project. This ensured that most issues were fixed before the website was finished. Chrome DevTools were utilised when building the website to help with troubleshooting as the website transformed. 
+
+The following issues were raised during my project meeting with my mentor:
+
+* The heading on the about.html page exceeded the width of the website, causing overscroll. This has been fixed by removing the "row" bootstrap class from the heading.
 
 ### Code Validation
 
