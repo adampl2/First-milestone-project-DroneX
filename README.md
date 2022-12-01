@@ -144,22 +144,22 @@ It was ensured that the website is accessible and as user-friendly as possible. 
 
 ### Frameworks, Libraries & Programs Used
 
-Balsamiq - Wireframes.
+* Balsamiq - Wireframes.
 
-Git - Version control.
+* Git - Version control.
 
-Github - To save and store the files for the website.
+* Github - To save and store the files for the website.
 
-Bootstrap v5.2 - framework used for the website. Used when creating rows and columns. Also the form element was almost entirely created using this framework, with the support of standard CSS3 code to override certain styles.
+* Bootstrap v5.2 - framework used for the website. Used when creating rows and columns. Also the form element was almost entirely created using this framework, with the support of standard CSS3 code to override certain styles.
 
-Google Fonts - To import the fonts used on the website.
+* Google Fonts - To import the fonts used on the website.
 
-Font Awesome - For the iconography on the website.
+* Font Awesome - For the iconography on the website.
 
-Google Dev Tools - Troubleshooting, testing features and solving issues with responsiveness and styling.
+* Google Dev Tools - Troubleshooting, testing features and solving issues with responsiveness and styling.
 
-[Am I Responsive?](http://ami.responsivedesign.is/) To show the website image on a range of devices.
-[Favicon.io](https://favicon.io/) To create favicon.
+* [Am I Responsive?](http://ami.responsivedesign.is/) To show the website image on a range of devices.
+* [Favicon.io](https://favicon.io/) To create favicon.
 
 - - -
 
@@ -205,12 +205,29 @@ Testing progressed at every stage of this project. This ensured that most issues
 The following issues were raised during my project meeting with my mentor:
 
 * The heading on the about.html page exceeded the width of the website, causing overscroll. This has been fixed by removing the "row" bootstrap class from the heading.
+* Rather than defining padding, margin etc. in pixels, it was preferred to define then in %.
+* To limit the use of Ids, use classess instead.  
+* To always keep one space below and above the CSS selector.
+* To add an anchor tag to the logo in the navbar so it leads back to the homepage.
+* To create a confirmation page when the "submit" button is clicked on the form element.
+* To format the document using shift + alt + F command.
 
-### Code Validation
+### W3C Validator
 
-### Test Cases
+The W3C validator was used to validate the HTML and CSS pages.
+
+* [The HTML Home page](assets/images/W3C-validator-index.html.jpg)
+* [The Abous us page](assets/images/W3C-validator-about.html.jpg)
+* [The Contact page](assets/images/W3C-validator-contact.html.jpg)
+* [The Confirmation page](assets/images/W3C-validator-confirmation.html.jpg)
+* [style.css CSS file](assets/images/W3C-validator-css.jpg)
 
 ### Fixed Bugs
+
+1. The navbar kept its float: left position on mobile devices despite different intentions. The navbar was supposed to be equally centered on the mobile device, this was fixed using the justify-content: center declaration.  
+
+
+### Test Cases
 
 ### Supported Screens and Browsers
 
