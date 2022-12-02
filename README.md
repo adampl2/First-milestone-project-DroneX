@@ -226,6 +226,14 @@ The W3C validator was used to validate the HTML and CSS pages.
 
 1. The navbar kept its float: left position on mobile devices despite different intentions. The navbar was supposed to be equally centered on the mobile device, this was fixed using the justify-content: center declaration.  
 
+2. The images in "Our Locations" sections would not align symmetrically and their position was uneven. This was fixed using 3 declarations: display: flex, align-content: center, and justify-content: center as well as other declarations in the location-images CSS class.
+
+3. The "Request delivery" button did not appear at all on mobile devices. This was fixed using media queries. More specifically, using position: absolute and bottom: 45% CSS declarations. 
+
+4. The position of all headings on the background images was altered significantly when using the website on a mobile device. This was fixed using the position: absolute and other relevant declerations associated with positioning an element. 
+
+5. The navbar anchor tags had a visible background when hovering. This issue was easily fixed using the background: none declaration.
+
 
 ### Test Cases
 
