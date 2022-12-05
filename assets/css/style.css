@@ -508,7 +508,7 @@ footer .social-links i {
         height: fit-content;
     }
 
-    #footer-loc {
+    .footer-loc {
         display: none;
     }
 }
@@ -549,7 +549,7 @@ footer .social-links i {
         width: 60%;
     }
 
-    #footer-loc {
+    .footer-loc {
         display: none;
     }
 

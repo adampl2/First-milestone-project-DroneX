@@ -247,7 +247,12 @@ It was ensured that through the testing process content was responsive using the
 2. The navbar anchor tags work exactly as expected. By clicking on the logo - it led to the homepage. By clicking on "Home" - it led to homepage. by clicking on "About" - it lead to the about section, and by clicking on "Contact" - it led to the Contact page which opened in a separate window.
 3. The "Request Delivery" button also worked as expected. By clicking on it, the user was redirected to the "Contact" page which opened in a separate window. 
 4. The inline "Palace of Culture" in the homepage link leadning to the Wikipedia page was also tested by cliking on it. After testing the link served its purpose. 
-4. The social links were tested by clicking on each of them. They all opened in a separate tab as expexted.
+5. The social links were tested by clicking on each of them. They all opened in a separate tab as expexted.
+
+* Form
+
+1. Not filled - The submit button should not accept the form unless all required field are completed. This was tested by submitting an empty form.
+2. Filled - The submit button should redirect the user to the separate (opens in a new tab) confirmation page. This was tested by submitting a filled form.  
 
 ### Supported Screens and Browsers
 
