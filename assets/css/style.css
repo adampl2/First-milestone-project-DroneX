@@ -310,16 +310,12 @@ nav ul li a:hover {
     font-weight: 600;
 }
 
-#countryForm {
-    padding-right: 12px;
-}
-
-#termsAndConditions {
+.termsAndConditions {
     font-weight: 500;
     font-size: smaller;
 }
 
-#btn {
+.btn {
     text-align: center;
 }
 
