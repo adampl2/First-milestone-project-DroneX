@@ -256,17 +256,42 @@ It was ensured that through the testing process content was responsive using the
 
 ### Supported Screens and Browsers
 
+* Browsers - It is recommended that you use the latest version of one of the following:
+
+  * [Apple Safari](https://www.apple.com/safari/)
+  * [Google Chrome](https://www.google.com/chrome/)
+  * [Microsoft Edge](https://www.microsoft.com/en-us/edge?form=MA13FJ)
+  * [Mozilla Firefox](https://www.mozilla.org/pl/firefox/)
+
+* Screens
+
+  * This website is suitable for mobile devices including Samsung and iPhone (Devices of same width also suitable).
+  * Tablets.
+  * Desktops.
+
 ## Credits
 
-### Homepage Background image (pexels-homepage-bgimg.jpg) -  Omar Ramadan (https://www.pexels.com/pl-pl/zdjecie/latanie-urzadzenie-glebia-pola-gadzet-9977848/)
+### Background Images
 
-### Warsaw Image (pexels-warszawa.jpg) - Skitterphoto (https://www.pexels.com/pl-pl/zdjecie/budynki-miasto-miejski-panorama-10676/)
+* Index.html Background image (pexels-homepage-bgimg.jpg) -  Omar Ramadan (https://www.pexels.com/pl-pl/zdjecie/latanie-urzadzenie-glebia-pola-gadzet-9977848/)
 
-### Hong Kong Image (pexels-hongkong.jpg) - SodaTheCat (https://www.pexels.com/pl-pl/zdjecie/miasto-budynki-port-drapacze-chmur-11451098/)
+* About.html Background image (pexels-about-bgimg.jpg) - Simon (https://www.pexels.com/pl-pl/zdjecie/latanie-ruch-martwa-natura-dron-9443061/)
 
-### Singapore Image (pexels-singapore.jpg) - Timo Volz (https://www.pexels.com/pl-pl/zdjecie/gardens-by-the-bay-singapur-1842332/)
+* Contact.html Background image (pexels-contactbgimg.jpg) - Michael Meyer (https://www.pexels.com/pl-pl/zdjecie/latanie-martwa-natura-dji-kamera-drone-9739244/)
 
-### Contact.html background image (pexels-contactbgimg.jpg) - Michael Meyer (https://www.pexels.com/pl-pl/zdjecie/latanie-martwa-natura-dji-kamera-drone-9739244/)
+### Images on Index.html
 
-### About.html background image (pexels-about-bgimg.jpg) - Simon (https://www.pexels.com/pl-pl/zdjecie/latanie-ruch-martwa-natura-dron-9443061/)
+* Warsaw Image (pexels-warszawa.jpg) - Skitterphoto (https://www.pexels.com/pl-pl/zdjecie/budynki-miasto-miejski-panorama-10676/)
 
+* Hong Kong Image (pexels-hongkong.jpg) - SodaTheCat (https://www.pexels.com/pl-pl/zdjecie/miasto-budynki-port-drapacze-chmur-11451098/)
+
+* Singapore Image (pexels-singapore.jpg) - Timo Volz (https://www.pexels.com/pl-pl/zdjecie/gardens-by-the-bay-singapur-1842332/)
+
+### Code Credits
+
+* Background Image + navbar inspiration code - Web Master (https://www.youtube.com/watch?v=ZotQNKyvZsw)
+
+## Acknowledgements
+
+* [Rohit Sharma](https://github.com/rohit0286) - My Code Institute mentor.
+* [Drone dji](https://www.dji.com/uk) - For project inspiration.

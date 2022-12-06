@@ -525,6 +525,14 @@ footer .social-links i {
         display: none;
     }
 
+    /*-------------navbar */
+
+    .navbar-elements {
+        justify-content: center;
+        width: 100%;
+        margin: auto;
+    }
+
     /*-------------about.html */
 
     .about-bg-image {
