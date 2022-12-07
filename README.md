@@ -1,6 +1,4 @@
-# FIRST MILESTONE PROJECT DRONEX
-
-## The Purpose of This Project 
+# FIRST MILESTONE PROJECT DRONEX 
 
 ## User Experience (UX)
 
@@ -8,7 +6,7 @@
 
  The goal of the DroneX project is to create a fictional drone delivery service website. Here businesses can cooperate with us to use our company drones and revolutionise their delivery service. The goal of this website is to give  our users a clear understanding of what our service is and what it does. My goal is to generate as many new clients as possible for our service.
 
- #### Key information for the site
+ #### Key information for the site:
 
  * DroneX is a drone delivery service.
  * We provide drones to businesses.
@@ -17,25 +15,25 @@
 
 ### User Stories
 
-#### Client Goals
+#### Client Goals:
 
 * The ability to view the website on various devices of different widths
 * To make the site understandable for first-time users and to make the purpose clear.
 * To provide clear and easy to notice contact information, including address.
 * To make the content easy to read and accessible to all visitors.
 
-#### First Time Visitor Goals
+#### First Time Visitor Goals:
 
 * To find out what DroneX is.
 * To be able to easily navigate through the website on various devices.
 * To visit our social media pages.
 
-#### Returning Visitor Goals
+#### Returning Visitor Goals:
 
 * To fill the contact form and get in touch with us regarding doing business together.
 * To start collaboration and answer any questions potential client may have.
 
-#### Frequent Visitor Goals
+#### Frequent Visitor Goals:
 
 * Our frequent visitors should be our business partners.
 
@@ -295,3 +293,5 @@ It was ensured that through the testing process content was responsive using the
 
 * [Rohit Sharma](https://github.com/rohit0286) - My Code Institute mentor.
 * [Drone dji](https://www.dji.com/uk) - For project inspiration.
+* [Kera Cudmore](https://github.com/kera-cudmore) - For sharing her readme.md with CI students.
+* [Aleksandra Cyran](https://www.linkedin.com/in/acyran/) - For helping me spot any bugs.
