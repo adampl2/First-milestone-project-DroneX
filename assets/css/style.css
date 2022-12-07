@@ -5,15 +5,16 @@ body {
     padding: 0;
 }
 
-/*--------------------------------------------Icons */
+/* Icons */
 
 .bg-image .bg-image-anchor .icon {
     font-size: 12px;
     padding-left: 5px;
 }
 
-/*--------------------------------------------NavBar */
+/* NavBar */
 
+/* Navbar position and color */
 nav {
     position: absolute;
     top: 0;
@@ -25,6 +26,7 @@ nav {
     background: #00000080;
 }
 
+/* NavBar logo position, font and color */
 nav .logo {
     padding: 22px 36px 22px 0;
     height: 80px;
@@ -36,6 +38,7 @@ nav .logo {
     color: #fff;
 }
 
+/* NavBar links position */
 .navbar-elements {
     width: 100%;
     list-style: none;
@@ -45,6 +48,7 @@ nav .logo {
     display: flex;
 }
 
+/* NavBar anchor links font, color, and positioning */
 nav ul li a {
     line-height: 80px;
     color: #fff;
@@ -57,6 +61,7 @@ nav ul li a {
     transition-duration: 0.4s;
 }
 
+/* NavBar links hover declarations */
 nav ul li a:hover {
     color: #fff;
     text-decoration: none;
@@ -64,7 +69,7 @@ nav ul li a:hover {
     opacity: 0.6;
 }
 
-/*--------------------------------------------INDEX.html Hero Image */
+/* INDEX.html Background Image */
 
 .bg-image {
     width: 100%;
@@ -74,13 +79,13 @@ nav ul li a:hover {
     background-position: center;
 }
 
-/*--- bg image upper paragraph */
-
+/* Bg image upper paragraph */
 .bg-image-text-upper {
     text-align: center;
     padding-top: 110px;
 }
 
+/* Color, font and positioning */
 .bg-image-text-upper p {
     color: #020202a1;
     margin-bottom: 12px;
@@ -89,13 +94,13 @@ nav ul li a:hover {
     font-weight: 600;
 }
 
-/*--- bg image heading */
-
+/* Bg image heading */
 .bg-image-heading {
     text-align: center;
     padding-top: 10px;
 }
 
+/* Font, color and spacing */
 .bg-image-heading h2 {
     font-family: "Exo", sans-serif;
     text-transform: uppercase;
@@ -105,8 +110,7 @@ nav ul li a:hover {
     color: #fff;
 }
 
-/*--- bg image "Request Delivery" button */
-
+/* Bg image "Request Delivery" button */
 .bg-image .bg-image-anchor {
     width: 100%;
     margin: auto;
@@ -115,6 +119,7 @@ nav ul li a:hover {
     text-align: center;
 }
 
+/* Positioning, color, font, and border */
 .bg-image-anchor-text {
     padding: 7px 11px;
     text-decoration: none;
@@ -127,13 +132,13 @@ nav ul li a:hover {
     transition-duration: 0.4s;
 }
 
+/* Request Delivery hover settings */
 .bg-image-anchor-text:hover {
     color: #fff;
     opacity: 0.6;
 }
 
-/*--------------------------------------------Our Locations Section */
-
+/* Our Locations Section */
 .location-heading-main {
     text-align: center;
     font-family: "Exo", sans-serif;
@@ -143,6 +148,7 @@ nav ul li a:hover {
     padding: 20px 0 50px 0;
 }
 
+/* Position of Images */
 .location-images {
     display: flex;
     align-items: center;
@@ -152,8 +158,7 @@ nav ul li a:hover {
     overflow: hidden;
 }
 
-/*--- Headings */
-
+/* Headings */
 .location-headings {
     width: 100%;
     text-align: center;
@@ -162,6 +167,7 @@ nav ul li a:hover {
     margin: 12px 0 26px 0;
 }
 
+/* Paragraphs under Images - positioning and font */
 .location-parapgraph {
     width: 100%;
     text-align: center;
@@ -172,7 +178,7 @@ nav ul li a:hover {
     margin-bottom: 54px;
 }
 
-/*--------------------------------------------ABOUT.html Hero Image */
+/* ABOUT.html Hero Image */
 
 .about-bg-image {
     width: 100%;
@@ -182,8 +188,7 @@ nav ul li a:hover {
     background-position: center;
 }
 
-/*--------------------------------------------ABOUT.HTML Hero Image heading */
-
+/* Background Image heading - position, font, and color */
 .about-bg-image h2 {
     position: absolute;
     top: 34%;
@@ -198,8 +203,7 @@ nav ul li a:hover {
     color: #fff;
 }
 
-/*--- ABOUT.html content heading */
-
+/* Content heading - positioning and font */
 .about-heading-box h2 {
     width: 100%;
     margin: 0;
@@ -211,13 +215,13 @@ nav ul li a:hover {
     padding: 30px 0 5% 0;
 }
 
-/*--- ABOUT.html content parapgraphs */
-
+/* Content parapgraphs */
 .all-paragraphs {
     width: 100%;
     margin: auto;
 }
 
+/* Paragraphs - position, font, and color */
 .all-paragraphs .paragraph {
     width: 50%;
     margin: auto;
@@ -229,7 +233,7 @@ nav ul li a:hover {
     font-weight: 500;
 }
 
-/*--------------------------------------------CONTACT.html Hero Image */
+/* CONTACT.html Background Image */
 
 .contact-bg-image {
     width: 100%;
@@ -239,13 +243,13 @@ nav ul li a:hover {
     background-position: center;
 }
 
-/*--------------------------------------------CONTACT.HTML Hero Image text */
-
+/* Background Image heading */
 .contact-bg-image-heading {
     text-align: center;
     padding-top: 110px;
 }
 
+/* Font, spacing, and color */
 .contact-bg-image-heading h2 {
     font-family: "Exo", sans-serif;
     text-transform: uppercase;
@@ -255,11 +259,13 @@ nav ul li a:hover {
     color: #fff;
 }
 
+/* Paragraph upper */
 .contact-bg-image-parapgraph-upper {
     text-align: center;
     padding-top: 30px;
 }
 
+/* Color and font */
 .contact-bg-image-parapgraph-upper p {
     color: #fff;
     margin-bottom: 2px;
@@ -268,11 +274,13 @@ nav ul li a:hover {
     font-weight: 600;
 }
 
+/* Paragraph lower */
 .contact-bg-image-parapgraph-lower {
     text-align: center;
     padding-top: 20px;
 }
 
+/* Color and font */
 .contact-bg-image-parapgraph-lower p {
     color: #fff;
     margin-bottom: 2px;
@@ -282,8 +290,7 @@ nav ul li a:hover {
     font-size: 14px;
 }
 
-/*--------------------------------------------CONTACT.html Form Element */
-
+/* Form section */
 .form-section {
     padding: 32px 0 52px 0;
 }
@@ -297,6 +304,7 @@ nav ul li a:hover {
     text-transform: capitalize;
 }
 
+/* Form */
 .form {
     width: 45%;
     margin: auto;
@@ -305,6 +313,7 @@ nav ul li a:hover {
     border-radius: 12px;
 }
 
+/* Changes font of labels */
 .form label {
     font-family: "Exo", sans-serif;
     font-weight: 600;
@@ -315,16 +324,19 @@ nav ul li a:hover {
     font-size: smaller;
 }
 
+/* Submit button alignment */
 .btn {
     text-align: center;
 }
 
-/*--------------------------------------------Confirmation Page */
+/* Confirmation Page */
 
+/* NavBar background color */
 .confirmation-nav {
     background: #000000;
 }
 
+/* Thank you message icon - position and font */
 .thankyou-msg i {
     width: 100%;
     margin: auto;
@@ -334,6 +346,7 @@ nav ul li a:hover {
     font-size: 35px;
 }
 
+/* Heading - position and font */
 .thankyou-msg h1 {
     width: 100%;
     margin: auto;
@@ -344,6 +357,7 @@ nav ul li a:hover {
     font-size: 45px;
 }
 
+/* Paragraph - position and font */
 .thankyou-msg p {
     width: 100%;
     margin: auto;
@@ -354,22 +368,25 @@ nav ul li a:hover {
     font-family: "Exo", sans-serif;
 }
 
+/* Footer - confirmation.html only */
 .confirmation-footer {
     position: absolute;
     bottom: 0;
     left: 0;
 }
 
-/*--------------------------------------------Footer */
+/* Footer */
 
+/* Footer - color and position */
 footer {
     background-color: #000000;
-    color: #ffffff;
+    color: #fff;
     min-height: 120px;
     margin: 0;
     padding-bottom: 18px;
 }
 
+/* Headings - position, font, and border */
 .general-sub {
     margin: 16px 0 12px 12px;
     font-family: "Exo", sans-serif;
@@ -377,25 +394,29 @@ footer {
     border-bottom: 1.2px solid #fff;
 }
 
+/* Locations - font and margin of cities */
 footer .footer-cities {
     margin-left: 12px;
     font-family: "Exo", sans-serif;
     font-size: 14px;
 }
 
+/* Contact font and margin */
 footer .footer-contact-details {
     margin-left: 12px;
     font-family: "Exo", sans-serif;
     font-size: 14px;
 }
 
-/*--- Social Links */
+/* Social Links */
 
+/* Position */
 footer .social-links {
     margin: 16px 12px 12px 0;
     float: right;
 }
 
+/* Transition for icons */
 footer .social-links i {
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -403,21 +424,25 @@ footer .social-links i {
     -o-transition: all 0.35s ease-in-out;
 }
 
-/*--------------------------------------------Media Queries */
+/* Media Queries - mobile */
 
 @media only screen and (max-width: 480px) {
 
     /*-------------NavBar */
-
+    
     .logo {
         display: none;
     }
+
+    /* Adjusts padding and margin */
 
     nav {
         width: 100%;
         margin: auto;
         padding: 0 14px 0 14px;
     }
+
+    /* Changes position of anchor links */
 
     nav ul li a {
         height: auto;
@@ -426,13 +451,15 @@ footer .social-links i {
         text-align: center;
     }
 
+    /* Centers nav links */
+
     .navbar-elements {
         justify-content: center;
         width: 100%;
         margin: auto;
     }
 
-    /*-------------index.html */
+    /* Index.html */
 
     .bg-image {
         height: 70vh;
@@ -449,17 +476,19 @@ footer .social-links i {
         bottom: 45%;
     }
 
-    /*-------------Our Location Images */
+    /* Our Location Images */
 
     .ourloc-img {
         display: none;
     }
 
-    /*-------------about.html */
+    /* About.html */
 
     .about-bg-image {
         height: 70vh;
     }
+
+    /* Changes position of the bg image heading */
 
     .about-bg-image h2 {
         text-align: center;
@@ -470,6 +499,8 @@ footer .social-links i {
         font-size: 21px;
     }
 
+    /* Changes position of the main content heading */
+
     .about-heading-box h2 {
         width: 75%;
         margin: auto;
@@ -479,11 +510,13 @@ footer .social-links i {
         letter-spacing: 1px;
     }
 
+    /* Reduces width to fit on mobile */
+
     .all-paragraphs .paragraph {
         width: 75%;
     }
 
-    /*-------------contact.html */
+    /* Contact.html */
 
     .contact-bg-image {
         height: 70vh;
@@ -508,24 +541,30 @@ footer .social-links i {
         height: fit-content;
     }
 
+    /* Hides Locations column */
+
     .footer-loc {
         display: none;
     }
 }
 
+/* Media Queries - Tablet */
+
 @media only screen and (max-width: 990px) and (min-width: 480px) {
 
-    /*-------------index.html */
+    /* Index.html */
 
     .bg-image {
         height: 90vh;
     }
 
+    /* Hides "Our Locations" images */
+
     .ourloc-img {
         display: none;
     }
 
-    /*-------------navbar */
+    /* navbar */
 
     .navbar-elements {
         justify-content: center;
@@ -533,7 +572,7 @@ footer .social-links i {
         margin: auto;
     }
 
-    /*-------------about.html */
+    /* About.html */
 
     .about-bg-image {
         height: 90vh;
@@ -543,7 +582,7 @@ footer .social-links i {
         padding-top: 45%;
     }
 
-    /*-------------contact.html */
+    /* Contact.html */
 
     .contact-bg-image {
         height: 90vh;
@@ -556,6 +595,8 @@ footer .social-links i {
     .form {
         width: 60%;
     }
+
+    /* Footer */
 
     .footer-loc {
         display: none;
