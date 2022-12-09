@@ -567,7 +567,7 @@ footer .social-links i {
     /* navbar */
 
     .navbar-elements {
-        justify-content: center;
+        justify-content: left;
         width: 100%;
         margin: auto;
     }
