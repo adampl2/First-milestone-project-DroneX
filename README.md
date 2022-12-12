@@ -64,13 +64,13 @@ All images were taken from the pexels.com website and reference was provided whe
 Wireframes were created for desktop view. Sign Up page was reconsidered and therefore, removed
 from the website.
 
-[Home Page Wireframe](assets/images/wireframe-homepage.jpg)
+[Home Page Wireframe](docs/wireframe-homepage.jpg)
 
-[About Page Wireframe](assets/images/wireframe-about.jpg)
+[About Page Wireframe](docs/wireframe-about.jpg)
 
-[Contact Page Wireframe](assets/images/wireframe-contact.jpg)
+[Contact Page Wireframe](docs/wireframe-contact.jpg)
 
-[Sign Up Page Wireframe](assets/images/wireframe-signup.jpg)
+[Sign Up Page Wireframe](docs/wireframe-signup.jpg)
 
 ### Features
 
@@ -214,11 +214,11 @@ The following issues were raised during my project meeting with my mentor:
 
 The W3C validator was used to validate the HTML and CSS pages.
 
-* [The HTML Home page](assets/images/W3C-validator-index.html.jpg)
-* [The Abous us page](assets/images/W3C-validator-about.html.jpg)
-* [The Contact page](assets/images/W3C-validator-contact.html.jpg)
-* [The Confirmation page](assets/images/W3C-validator-confirmation.html.jpg)
-* [style.css CSS file](assets/images/W3C-validator-css.jpg)
+* [The HTML Home page](docs/W3C-validator-index.html.jpg)
+* [The Abous us page](docs/W3C-validator-about.html.jpg)
+* [The Contact page](docs/W3C-validator-contact.html.jpg)
+* [The Confirmation page](docs/W3C-validator-confirmation.html.jpg)
+* [style.css CSS file](docs/W3C-validator-css.jpg)
 
 ### Fixed Bugs
 
