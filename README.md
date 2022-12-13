@@ -11,9 +11,21 @@
  * DroneX is a drone delivery service.
  * We provide drones to businesses.
  * A way for businessess to expand via delivery of goods.
- * The quickest, direct, straight to window/balcony delievy of goods up to 12kg. 
+ * The quickest, direct, straight to window/balcony delievy of goods up to 12kg.
 
 ### User Stories
+
+The purposes of various visitors of this website will vary, however, those only include the main prioritiy/ies of each type of visitor. For example, a business owner also must be able to easily navigate around the website, however, their priority would be to find an easy way to contact DroneX.
+
+* As a business owner I want to be able to find out more about DroneX to find out how they can help me to scale the delivery service of my own business i.e. deliver my goods in a faster and more efficient way.
+
+* As a business owner I want to be able to contact the company efficiently, that includes contact number, email address, and physical address. 
+
+* As a cunsumer I want to find out where (location, city etc.) is DroneX available.
+
+* As a visitor I want to be able to easily navigate around the website, read about the company and contact them with regards to any query if necessary.
+
+### User Goals
 
 #### Client Goals:
 
