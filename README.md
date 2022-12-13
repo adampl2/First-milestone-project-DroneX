@@ -173,6 +173,91 @@ It was ensured that the website is accessible and as user-friendly as possible. 
 
 - - -
 
+## Testing
+
+Testing progressed at every stage of this project. This ensured that most issues were fixed before the website was finished. Chrome DevTools were utilised when building the website to help with troubleshooting as the website transformed. 
+
+The following issues were raised during my project meeting with my mentor:
+
+* The heading on the about.html page exceeded the width of the website, causing overscroll. This has been fixed by removing the "row" bootstrap class from the heading.
+* Rather than defining padding, margin etc. in pixels, it was preferred to define then in %.
+* To limit the use of Ids, use classess instead.  
+* To always keep one space below and above the CSS selector.
+* To add an anchor tag to the logo in the navbar so it leads back to the homepage.
+* To create a confirmation page when the "submit" button is clicked on the form element.
+* To format the document using shift + alt + F command.
+
+### W3C Validator
+
+The W3C validator was used to validate the HTML and CSS pages.
+
+* [The HTML Home page](docs/W3C-validator-index.html.jpg)
+* [The Abous us page](docs/W3C-validator-about.html.jpg)
+* [The Contact page](docs/W3C-validator-contact.html.jpg)
+* [The Confirmation page](docs/W3C-validator-confirmation.html.jpg)
+* [The style.css CSS file](docs/W3C-validator-css.jpg)
+
+### Fixed Bugs
+
+1. The navbar kept its float: left position on mobile devices despite different intentions. The navbar was supposed to be equally centered on the mobile device, this was fixed using the justify-content: center declaration.  
+
+2. The images in "Our Locations" sections would not align symmetrically and their position was uneven. This was fixed using 3 declarations: display: flex, align-content: center, and justify-content: center as well as other declarations in the location-images CSS class.
+
+3. The "Request delivery" button did not appear at all on mobile devices. This was fixed using media queries. More specifically, using position: absolute and bottom: 45% CSS declarations. 
+
+4. The position of all headings on the background images was altered significantly when using the website on a mobile device. This was fixed using the position: absolute and other relevant declerations associated with positioning an element. 
+
+5. The navbar anchor tags had a visible background when hovering. This issue was easily fixed using the background: none declaration.
+
+
+### Test Cases
+
+I have fully tested the website using Google Chrome and Mozilla Firefox on desktop (HP Pavilion Convertible 14 inch) and mobile (Samsung Note9). 
+
+It was ensured that through the testing process content was responsive using the Google Developer Tools. 
+
+#### Home page
+
+* I began by clicking on the "home" link and the logo to see if the homepage loads correctly.
+* Next, I clicked on the "Request delivery" button to see if it leads to the contact page without errors.
+* Next, I scrolled down to see if the 3 images and all content in the "Our Locations" section load correctly.
+* I also checked if the anchor link works in the "Warsaw" description - The Palace of culture link to the Wikipedia page.
+* I also ensured that, from the Home page - all navbar links lead to the right page.
+* Lastly, I checked if the social links in the footer element work correctly as well.
+
+#### About page
+
+* I began my testing by clicking on the "About" navbar link to see if the page and its content load correctly.
+* If the page and its content load correctly, I continued to check the footer element to see if the social links work as well.
+* I also ensured that, from the About page - all navbar links lead to the right page.
+
+#### Contact page
+
+* I began my testing by clicking on the "Contact" navbar link to see if the page and its content load correctly.
+* I also ensured that, from the Contact page - all navbar links lead to the right page.
+* Form
+  * I clicked in the "Submit" button - Error message appeared "Please fill in this field" - As expected.
+  * Next, I filled the required field (email) - The same error message should appear indicating that the "First name" field must be completed before submitting the form.
+  * The same process was repeated for Last Name, Company name, Industry, and Agree to terms & conditions fields.
+  * When all fields are completed, the "Submit" button should direct the user to the "confirmation.html" page displaying a "thank you" message without any erorrs on the form.
+
+### Supported Screens and Browsers
+
+* Browsers - It is recommended that you use the latest version of one of the following:
+
+  * [Apple Safari](https://www.apple.com/safari/)
+  * [Google Chrome](https://www.google.com/chrome/)
+  * [Microsoft Edge](https://www.microsoft.com/en-us/edge?form=MA13FJ)
+  * [Mozilla Firefox](https://www.mozilla.org/pl/firefox/)
+
+* Screens
+
+  * This website is suitable for mobile devices including Samsung and iPhone (Devices of same width also suitable).
+  * Tablets.
+  * Desktops.
+
+- - -
+
 ## Deployment & Local Development
 
 ### Deployment
@@ -208,98 +293,29 @@ Clone the First-milestone-project-DroneX repository:
 
 - - -
 
-## Testing
-
-Testing progressed at every stage of this project. This ensured that most issues were fixed before the website was finished. Chrome DevTools were utilised when building the website to help with troubleshooting as the website transformed. 
-
-The following issues were raised during my project meeting with my mentor:
-
-* The heading on the about.html page exceeded the width of the website, causing overscroll. This has been fixed by removing the "row" bootstrap class from the heading.
-* Rather than defining padding, margin etc. in pixels, it was preferred to define then in %.
-* To limit the use of Ids, use classess instead.  
-* To always keep one space below and above the CSS selector.
-* To add an anchor tag to the logo in the navbar so it leads back to the homepage.
-* To create a confirmation page when the "submit" button is clicked on the form element.
-* To format the document using shift + alt + F command.
-
-### W3C Validator
-
-The W3C validator was used to validate the HTML and CSS pages.
-
-* [The HTML Home page](docs/W3C-validator-index.html.jpg)
-* [The Abous us page](docs/W3C-validator-about.html.jpg)
-* [The Contact page](docs/W3C-validator-contact.html.jpg)
-* [The Confirmation page](docs/W3C-validator-confirmation.html.jpg)
-* [style.css CSS file](docs/W3C-validator-css.jpg)
-
-### Fixed Bugs
-
-1. The navbar kept its float: left position on mobile devices despite different intentions. The navbar was supposed to be equally centered on the mobile device, this was fixed using the justify-content: center declaration.  
-
-2. The images in "Our Locations" sections would not align symmetrically and their position was uneven. This was fixed using 3 declarations: display: flex, align-content: center, and justify-content: center as well as other declarations in the location-images CSS class.
-
-3. The "Request delivery" button did not appear at all on mobile devices. This was fixed using media queries. More specifically, using position: absolute and bottom: 45% CSS declarations. 
-
-4. The position of all headings on the background images was altered significantly when using the website on a mobile device. This was fixed using the position: absolute and other relevant declerations associated with positioning an element. 
-
-5. The navbar anchor tags had a visible background when hovering. This issue was easily fixed using the background: none declaration.
-
-
-### Test Cases
-
-I have fully tested the website using Google Chrome and Mozilla Firefox on desktop (HP Pavilion Convertible 14 inch) and mobile (Samsung Note9). 
-
-It was ensured that through the testing process content was responsive using the Google Developer Tools. 
-
-* Links
-
-1. Every link (social media, navbar, in-text, button) on every page (Home, About, Contact. and Confirmation) had been tested by clicking on it and seeing if it serves its function. 
-2. The navbar anchor tags work exactly as expected. By clicking on the logo - it led to the homepage. By clicking on "Home" - it led to homepage. by clicking on "About" - it lead to the about section, and by clicking on "Contact" - it led to the Contact page which opened in a separate window.
-3. The "Request Delivery" button also worked as expected. By clicking on it, the user was redirected to the "Contact" page which opened in a separate window. 
-4. The inline "Palace of Culture" in the homepage link leadning to the Wikipedia page was also tested by cliking on it. After testing the link served its purpose. 
-5. The social links were tested by clicking on each of them. They all opened in a separate tab as expexted.
-
-* Form
-
-1. Not filled - The submit button should not accept the form unless all required field are completed. This was tested by submitting an empty form.
-2. Filled - The submit button should redirect the user to the separate (opens in a new tab) confirmation page. This was tested by submitting a filled form.  
-
-### Supported Screens and Browsers
-
-* Browsers - It is recommended that you use the latest version of one of the following:
-
-  * [Apple Safari](https://www.apple.com/safari/)
-  * [Google Chrome](https://www.google.com/chrome/)
-  * [Microsoft Edge](https://www.microsoft.com/en-us/edge?form=MA13FJ)
-  * [Mozilla Firefox](https://www.mozilla.org/pl/firefox/)
-
-* Screens
-
-  * This website is suitable for mobile devices including Samsung and iPhone (Devices of same width also suitable).
-  * Tablets.
-  * Desktops.
-
 ## Credits
 
 ### Background Images
 
-* Index.html Background image (pexels-homepage-bgimg.jpg) -  Omar Ramadan (https://www.pexels.com/pl-pl/zdjecie/latanie-urzadzenie-glebia-pola-gadzet-9977848/)
+* [Home page background image](https://www.pexels.com/pl-pl/zdjecie/latanie-urzadzenie-glebia-pola-gadzet-9977848/) - Omar Ramadan
 
-* About.html Background image (pexels-about-bgimg.jpg) - Simon (https://www.pexels.com/pl-pl/zdjecie/latanie-ruch-martwa-natura-dron-9443061/)
+* [About page background image](https://www.pexels.com/pl-pl/zdjecie/latanie-ruch-martwa-natura-dron-9443061/) - Simon 
 
-* Contact.html Background image (pexels-contactbgimg.jpg) - Michael Meyer (https://www.pexels.com/pl-pl/zdjecie/latanie-martwa-natura-dji-kamera-drone-9739244/)
+* [Contact page background image](https://www.pexels.com/pl-pl/zdjecie/latanie-martwa-natura-dji-kamera-drone-9739244/) - Michael Meyer
 
 ### Images on Index.html
 
-* Warsaw Image (pexels-warszawa.jpg) - Skitterphoto (https://www.pexels.com/pl-pl/zdjecie/budynki-miasto-miejski-panorama-10676/)
+* [Warsaw Image](https://www.pexels.com/pl-pl/zdjecie/budynki-miasto-miejski-panorama-10676/) - Skitterphoto
 
-* Hong Kong Image (pexels-hongkong.jpg) - SodaTheCat (https://www.pexels.com/pl-pl/zdjecie/miasto-budynki-port-drapacze-chmur-11451098/)
+* [Hong Kong Image](https://www.pexels.com/pl-pl/zdjecie/miasto-budynki-port-drapacze-chmur-11451098/) - SodaTheCat
 
-* Singapore Image (pexels-singapore.jpg) - Timo Volz (https://www.pexels.com/pl-pl/zdjecie/gardens-by-the-bay-singapur-1842332/)
+* [Singapore Image](https://www.pexels.com/pl-pl/zdjecie/gardens-by-the-bay-singapur-1842332/) - Timo Volz
 
 ### Code Credits
 
-* Background Image + navbar inspiration code - Web Master (https://www.youtube.com/watch?v=ZotQNKyvZsw)
+* [Web Master](https://www.youtube.com/watch?v=ZotQNKyvZsw) - Background Image + navbar inspiration code.
+
+- - -
 
 ## Acknowledgements
 
