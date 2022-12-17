@@ -314,6 +314,7 @@ Clone the First-milestone-project-DroneX repository:
 ### Code Credits
 
 * [Web Master](https://www.youtube.com/watch?v=ZotQNKyvZsw) - Background Image + navbar inspiration code.
+* [Janith](https://stackoverflow.com/questions/53388003/select-country-dropdown-in-html-page) - The form select country list.
 
 - - -
 
